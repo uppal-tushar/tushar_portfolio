@@ -26,6 +26,7 @@ export function Layout({ children }: PropsWithChildren) {
             <NavLink href="/#about">About</NavLink>
             <NavLink href="/#skills">Skills</NavLink>
             <NavLink href="/#critical-skills">Critical Skills</NavLink>
+            <NavLink href="/#photos">Photos</NavLink>
             <NavLink href="/#experience">Experience</NavLink>
             <NavLink href="/#education">Education</NavLink>
             <NavLink href="/#certifications">Certifications</NavLink>

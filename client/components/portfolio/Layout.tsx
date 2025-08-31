@@ -32,6 +32,16 @@ export function Layout({ children }: PropsWithChildren) {
             <NavLink href="/#contact">Contact</NavLink>
           </nav>
           <div className="flex items-center gap-2">
+            {resume.linkedin ? (
+              <a href={resume.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn">
+                <Button size="icon" variant="ghost"><Linkedin /></Button>
+              </a>
+            ) : null}
+            {resume.github ? (
+              <a href={resume.github} target="_blank" rel="noreferrer" aria-label="GitHub">
+                <Button size="icon" variant="ghost"><Github /></Button>
+              </a>
+            ) : null}
             <a href="mailto:tusharuppal909@gmail.com">
               <Button size="sm" className="">Email</Button>
             </a>

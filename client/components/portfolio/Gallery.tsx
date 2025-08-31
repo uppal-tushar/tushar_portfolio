@@ -7,12 +7,6 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 const photos = [
   {
     src:
-      "https://cdn.builder.io/api/v1/image/assets%2F33f441e383b24b5f998d70b29cc99b5e%2F097039beac32445e97fff101bbf57877?format=webp&width=800",
-    alt: "Portrait of Tushar Uppal",
-    caption: "Headshot",
-  },
-  {
-    src:
       "https://cdn.builder.io/api/v1/image/assets%2F33f441e383b24b5f998d70b29cc99b5e%2F51a99ce8db294f0d851a952dff369992?format=webp&width=800",
     alt: "Graduation ceremony — Governors State University",
     caption: "Graduation — Governors State University",

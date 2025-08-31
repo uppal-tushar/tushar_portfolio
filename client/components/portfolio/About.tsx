@@ -28,10 +28,6 @@ export default function About() {
               and operational readiness) to ensure stable go‑lives.
             </li>
             <li className="rounded-lg border bg-card p-4 text-sm text-foreground/90 shadow-sm">
-              Comfortable managing 1–5 engineers and coordinating cross‑functional
-              teams to remove deployment blockers.
-            </li>
-            <li className="rounded-lg border bg-card p-4 text-sm text-foreground/90 shadow-sm">
               Tooling: Python, SQL, Linux, Jira, Shell scripting, Grafana, Power BI;
               Databases: Oracle, MySQL; Cloud: AWS/Azure (basic).
             </li>

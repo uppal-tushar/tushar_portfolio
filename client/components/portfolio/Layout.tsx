@@ -1,6 +1,8 @@
 import { PropsWithChildren } from "react";
 import { Link, Outlet } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import { Linkedin, Github } from "lucide-react";
+import { resume } from "@/data/resume";
 
 const NavLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
   <a

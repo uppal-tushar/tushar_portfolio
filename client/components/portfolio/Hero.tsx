@@ -44,8 +44,15 @@ export default function Hero() {
           <div className="md:col-span-5">
             <div className="relative mx-auto aspect-square w-40 sm:w-56 md:w-64">
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-primary to-indigo-400 opacity-20 blur-2xl" />
-              <div className="relative grid size-full place-content-center rounded-2xl border bg-card shadow-sm">
-                <span className="text-5xl">🤖</span>
+              <div className="relative size-full overflow-hidden rounded-2xl border bg-card shadow-sm">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F33f441e383b24b5f998d70b29cc99b5e%2F097039beac32445e97fff101bbf57877?format=webp&width=800"
+                  alt="Portrait of Tushar Uppal"
+                  className="h-full w-full object-cover"
+                  loading="eager"
+                  width={800}
+                  height={800}
+                />
               </div>
             </div>
           </div>

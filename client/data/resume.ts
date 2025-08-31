@@ -126,7 +126,7 @@ export const resume: Resume = {
         "Developed custom dashboards on Grafana to visualize KPIs from monitored applications, enhancing troubleshooting efficiency and enabling three major software updates within two months.",
         "Authored technical documentation and process instructions to standardize deployments and support procedures across teams.",
         "Handled multiple competing priorities in fast-paced release cycles while coordinating with internal and external stakeholders.",
-        "Supported remote and on-site commissioning and troubleshooting alongside small teams of 1–5 engineers during upgrade windows.",
+        "Supported remote commissioning and troubleshooting alongside small teams of 1–5 engineers during upgrade windows.",
       ],
     },
   ],

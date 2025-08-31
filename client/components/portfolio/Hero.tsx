@@ -4,7 +4,17 @@ import { resume } from "@/data/resume";
 export default function Hero() {
   return (
     <section className="relative overflow-hidden border-b">
-      <div className="absolute inset-0 -z-10 bg-gradient-to-br from-primary/10 via-indigo-300/10 to-cyan-300/10" />
+      <div className="absolute inset-0 -z-20">
+        <img
+          src="https://cdn.builder.io/api/v1/image/assets%2F33f441e383b24b5f998d70b29cc99b5e%2F2781fb737fed450b983ac2a0926cec7c?format=webp&width=1600"
+          alt="Autonomous warehouse robots moving shelving units in a fulfillment center"
+          className="h-full w-full object-cover"
+          loading="lazy"
+          width={1600}
+          height={800}
+        />
+      </div>
+      <div className="absolute inset-0 -z-10 bg-gradient-to-br from-primary/20 via-indigo-300/20 to-cyan-300/20" />
       <div className="container py-16 sm:py-20">
         <div className="grid items-center gap-8 md:grid-cols-12">
           <div className="md:col-span-7">

@@ -40,6 +40,8 @@ export const resume: Resume = {
   email: "tusharuppal909@gmail.com",
   secondaryEmail: "iamtusharuppal@gmail.com",
   headline: "Robotics Coordinator • Systems Support & Integration",
+  linkedin: "https://www.linkedin.com/in/uppal-tushar/",
+  github: "https://github.com/uppal-tushar",
   skills: {
     "Robotics Systems": ["Deployment", "Integration", "Commissioning Support"],
     "Troubleshooting & Support": [

@@ -23,6 +23,7 @@ export type Resume = {
   name: string;
   phone: string;
   email: string;
+  secondaryEmail?: string;
   headline: string;
   summary?: string;
   skills: Record<string, string[]>;
@@ -35,14 +36,10 @@ export const resume: Resume = {
   name: "Tushar Uppal",
   phone: "+1 3127746121",
   email: "tusharuppal909@gmail.com",
+  secondaryEmail: "iamtusharuppal@gmail.com",
   headline: "Robotics Coordinator • Systems Support & Integration",
   skills: {
-    "Robotics Systems": [
-      "Deployment",
-      "Integration",
-      "Commissioning",
-      "Support",
-    ],
+    "Robotics Systems": ["Deployment", "Integration", "Commissioning", "Support"],
     "Troubleshooting & Support": [
       "Middleware troubleshooting",
       "System logs analysis",
@@ -84,10 +81,14 @@ export const resume: Resume = {
         "Delivered on-site technical support during hardware deployment and retrofitting phases, ensuring optimal hardware functionality, training delivery, and tooling readiness across multiple facilities.",
         "Collected and analyzed field failure data and operational metrics to identify trends, improve system reliability, and report actionable insights to cross-functional hardware engineering and quality teams.",
         "Supported robotic system commissioning by coordinating hardware and software integrations across onsite environments, ensuring successful live deployment.",
-        "Delivered insights from cleaning datasets regarding robotic performance metrics after automating essential tracking functions, resulting in findings used to address the three biggest causes of crashes identified during analysis efforts.",
         "Led field-level debugging and issue resolution of robotic system malfunctions, including real-time sensor and motion control failures, minimizing downtime during live warehouse operations.",
         "Conducted root cause analysis (RCA) for recurring robotic system failures to prevent future incidents.",
         "Analyzed recurring system crashes, identified root causes, and implemented solutions that reduced downtime by 40%.",
+        "Guided installation, commissioning, and troubleshooting of large-scale robotic systems at high-throughput fulfillment centers, both on-site and remotely.",
+        "Coordinated cross-functional teams to resolve deployment issues and remove blockers across hardware, software, and operations.",
+        "Oversaw live order testing, site acceptance testing, and operational readiness testing to ensure quality hand-offs and stable go-lives.",
+        "Managed escalations during deployment while maintaining KPIs for on-time delivery, cost, quality, safety, and sustainability.",
+        "Documented processes and lessons learned; drove continuous improvement initiatives informed by data-driven decisions.",
       ],
     },
     {
@@ -123,6 +124,9 @@ export const resume: Resume = {
         "Engaged in over 30 hours of professional development annually, mastering Python and JavaScript to align with industry trends and enhance technical skill set.",
         "Participated in deployment activities and collaborated with technical managers on large-scale system upgrades.",
         "Developed custom dashboards on Grafana to visualize KPIs from monitored applications, enhancing troubleshooting efficiency and enabling three major software updates within two months.",
+        "Authored technical documentation and process instructions to standardize deployments and support procedures across teams.",
+        "Handled multiple competing priorities in fast-paced release cycles while coordinating with internal and external stakeholders.",
+        "Supported remote and on-site commissioning and troubleshooting alongside small teams of 1–5 engineers during upgrade windows.",
       ],
     },
   ],

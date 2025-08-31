@@ -11,6 +11,9 @@ export default function Contact() {
           <div>
             <p className="text-sm text-muted-foreground">Email</p>
             <a className="block text-base font-semibold hover:underline" href={`mailto:${resume.email}`}>{resume.email}</a>
+            {resume.secondaryEmail ? (
+              <a className="mt-1 block text-base font-semibold hover:underline" href={`mailto:${resume.secondaryEmail}`}>{resume.secondaryEmail}</a>
+            ) : null}
             <p className="mt-3 text-sm text-muted-foreground">Phone</p>
             <a className="block text-base font-semibold hover:underline" href={`tel:${resume.phone.replace(/[^+\d]/g, "")}`}>{resume.phone}</a>
           </div>

@@ -31,6 +31,11 @@ export default function Hero() {
               <p>
                 Email: <a className="hover:underline" href={`mailto:${resume.email}`}>{resume.email}</a>
               </p>
+              {resume.secondaryEmail ? (
+                <p>
+                  Alt Email: <a className="hover:underline" href={`mailto:${resume.secondaryEmail}`}>{resume.secondaryEmail}</a>
+                </p>
+              ) : null}
               <p>
                 Phone: <a className="hover:underline" href="tel:+13127746121">{resume.phone}</a>
               </p>

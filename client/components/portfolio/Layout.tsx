@@ -22,6 +22,7 @@ export function Layout({ children }: PropsWithChildren) {
           </Link>
           <nav className="hidden gap-6 md:flex">
             <NavLink href="/#skills">Skills</NavLink>
+            <NavLink href="/#critical-skills">Critical Skills</NavLink>
             <NavLink href="/#experience">Experience</NavLink>
             <NavLink href="/#education">Education</NavLink>
             <NavLink href="/#certifications">Certifications</NavLink>

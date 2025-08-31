@@ -39,7 +39,7 @@ export default function Hero() {
                   <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">Get in touch</Button>
                 </a>
                 <a href="tel:+13127746121">
-                  <Button size="lg" variant="outline" className="border-white/60 text-white hover:bg-white/10">Call {resume.phone}</Button>
+                  <Button size="lg" variant="outline" className="border-white/60 text-black hover:bg-white/10">Call {resume.phone}</Button>
                 </a>
               </div>
               <div className="mt-6 grid gap-1 text-sm text-white/85">

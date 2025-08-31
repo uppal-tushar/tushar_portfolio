@@ -18,6 +18,11 @@ export default function Hero() {
               {resume.headline}
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-3">
+              {resume.linkedin ? (
+                <a href={resume.linkedin} target="_blank" rel="noreferrer">
+                  <Button size="lg" variant="secondary">LinkedIn</Button>
+                </a>
+              ) : null}
               <a href="mailto:tusharuppal909@gmail.com">
                 <Button size="lg">Get in touch</Button>
               </a>
@@ -28,6 +33,11 @@ export default function Hero() {
               </a>
             </div>
             <div className="mt-6 text-sm text-muted-foreground">
+              {resume.linkedin ? (
+                <p>
+                  LinkedIn: <a className="hover:underline" target="_blank" rel="noreferrer" href={resume.linkedin}>{resume.linkedin}</a>
+                </p>
+              ) : null}
               <p>
                 Email: <a className="hover:underline" href={`mailto:${resume.email}`}>{resume.email}</a>
               </p>

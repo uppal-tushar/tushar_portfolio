@@ -1,6 +1,7 @@
 import Hero from "@/components/portfolio/Hero";
 import Skills from "@/components/portfolio/Skills";
 import About from "@/components/portfolio/About";
+import Gallery from "@/components/portfolio/Gallery";
 import Experience from "@/components/portfolio/Experience";
 import Education from "@/components/portfolio/Education";
 import CriticalSkills from "@/components/portfolio/CriticalSkills";
@@ -12,6 +13,7 @@ export default function Index() {
     <div id="top">
       <Hero />
       <About />
+      <Gallery />
       <Skills />
       <CriticalSkills />
       <Experience />

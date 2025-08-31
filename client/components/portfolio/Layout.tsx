@@ -15,7 +15,7 @@ const NavLink = ({ href, children }: { href: string; children: React.ReactNode }
 
 export function Layout({ children }: PropsWithChildren) {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-background to-background">
+    <div className="min-h-screen bg-gradient-to-br from-[hsl(var(--primary)_/_0.12)] via-[hsl(var(--accent)_/_0.08)] to-background">
       <header className="sticky top-0 z-40 w-full border-b bg-background/70 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center justify-between">
           <Link to="/" className="flex items-center gap-2">

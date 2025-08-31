@@ -34,6 +34,15 @@ export default function About() {
           </ul>
         </div>
         <div className="md:col-span-5">
+          <div className="overflow-hidden rounded-2xl border shadow-sm mb-6">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2F33f441e383b24b5f998d70b29cc99b5e%2F097039beac32445e97fff101bbf57877?format=webp&width=800"
+              alt="Portrait of Tushar Uppal"
+              className="h-64 w-full object-cover"
+              width={800}
+              height={512}
+            />
+          </div>
           <div className="rounded-2xl border bg-gradient-to-br from-primary/10 via-accent/10 to-cyan-300/10 p-6">
             <h3 className="text-sm font-semibold tracking-wide text-foreground/80">
               What I’m looking for

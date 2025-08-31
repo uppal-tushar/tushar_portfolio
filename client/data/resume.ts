@@ -26,6 +26,8 @@ export type Resume = {
   secondaryEmail?: string;
   headline: string;
   summary?: string;
+  linkedin?: string;
+  github?: string;
   skills: Record<string, string[]>;
   experience: Experience[];
   education: Education[];

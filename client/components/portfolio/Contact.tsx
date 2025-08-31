@@ -18,6 +18,16 @@ export default function Contact() {
             <a className="block text-base font-semibold hover:underline" href={`tel:${resume.phone.replace(/[^+\d]/g, "")}`}>{resume.phone}</a>
           </div>
           <div className="flex gap-3">
+            {resume.linkedin ? (
+              <a href={resume.linkedin} target="_blank" rel="noreferrer">
+                <Button size="lg" variant="secondary">LinkedIn</Button>
+              </a>
+            ) : null}
+            {resume.github ? (
+              <a href={resume.github} target="_blank" rel="noreferrer">
+                <Button size="lg" variant="secondary">GitHub</Button>
+              </a>
+            ) : null}
             <a href={`mailto:${resume.email}`}>
               <Button size="lg">Email me</Button>
             </a>

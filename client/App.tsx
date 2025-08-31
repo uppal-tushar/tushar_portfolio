@@ -27,6 +27,14 @@ const App = () => (
               </Layout>
             }
           />
+          <Route
+            path="/portfolio-tushar"
+            element={
+              <Layout>
+                <Index />
+              </Layout>
+            }
+          />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route
             path="*"

@@ -4,7 +4,13 @@ import { Button } from "@/components/ui/button";
 import { Linkedin, Github } from "lucide-react";
 import { resume } from "@/data/resume";
 
-const NavLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
+const NavLink = ({
+  href,
+  children,
+}: {
+  href: string;
+  children: React.ReactNode;
+}) => (
   <a
     href={href}
     className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors"
@@ -20,7 +26,9 @@ export function Layout({ children }: PropsWithChildren) {
         <div className="container flex h-16 items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
             <div className="size-6 rounded-md bg-gradient-to-tr from-primary to-indigo-400" />
-            <span className="text-sm font-bold tracking-wide">Tushar Uppal</span>
+            <span className="text-sm font-bold tracking-wide">
+              Tushar Uppal
+            </span>
           </Link>
           <nav className="hidden gap-6 md:flex">
             <NavLink href="/#about">About</NavLink>
@@ -34,20 +42,38 @@ export function Layout({ children }: PropsWithChildren) {
           </nav>
           <div className="flex items-center gap-2">
             {resume.linkedin ? (
-              <a href={resume.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn">
-                <Button size="icon" variant="ghost"><Linkedin /></Button>
+              <a
+                href={resume.linkedin}
+                target="_blank"
+                rel="noreferrer"
+                aria-label="LinkedIn"
+              >
+                <Button size="icon" variant="ghost">
+                  <Linkedin />
+                </Button>
               </a>
             ) : null}
             {resume.github ? (
-              <a href={resume.github} target="_blank" rel="noreferrer" aria-label="GitHub">
-                <Button size="icon" variant="ghost"><Github /></Button>
+              <a
+                href={resume.github}
+                target="_blank"
+                rel="noreferrer"
+                aria-label="GitHub"
+              >
+                <Button size="icon" variant="ghost">
+                  <Github />
+                </Button>
               </a>
             ) : null}
             <a href="mailto:tusharuppal909@gmail.com">
-              <Button size="sm" className="">Email</Button>
+              <Button size="sm" className="">
+                Email
+              </Button>
             </a>
             <a href="tel:+13127746121">
-              <Button size="sm" variant="outline">Call</Button>
+              <Button size="sm" variant="outline">
+                Call
+              </Button>
             </a>
           </div>
         </div>
@@ -56,7 +82,9 @@ export function Layout({ children }: PropsWithChildren) {
       <footer className="border-t">
         <div className="container py-6 text-xs text-muted-foreground flex flex-col sm:flex-row items-center justify-between gap-2">
           <p>© {new Date().getFullYear()} Tushar Uppal</p>
-          <p className="text-center">Robotics • Systems Support • Integration</p>
+          <p className="text-center">
+            Robotics • Systems Support • Integration
+          </p>
         </div>
       </footer>
     </div>

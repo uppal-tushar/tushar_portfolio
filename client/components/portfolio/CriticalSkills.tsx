@@ -20,13 +20,23 @@ const bullets: string[] = [
 export default function CriticalSkills() {
   return (
     <section className="container py-12" id="critical-skills">
-      <SectionHeading title="Critical Skills" subtitle="Professional strengths aligned to field deployment and robotics" />
+      <SectionHeading
+        title="Critical Skills"
+        subtitle="Professional strengths aligned to field deployment and robotics"
+      />
       <ul className="grid gap-3 sm:grid-cols-2">
         {bullets.map((b, i) => (
-          <li key={i} className="group rounded-lg border bg-card p-4 shadow-sm transition hover:shadow-md">
+          <li
+            key={i}
+            className="group rounded-lg border bg-card p-4 shadow-sm transition hover:shadow-md"
+          >
             <div className="flex items-start gap-3">
-              <span className="mt-1 inline-flex size-5 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-primary to-cyan-500 text-white text-[10px]">★</span>
-              <p className="text-sm leading-relaxed text-muted-foreground group-hover:text-foreground">{b}</p>
+              <span className="mt-1 inline-flex size-5 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-primary to-cyan-500 text-white text-[10px]">
+                ★
+              </span>
+              <p className="text-sm leading-relaxed text-muted-foreground group-hover:text-foreground">
+                {b}
+              </p>
             </div>
           </li>
         ))}

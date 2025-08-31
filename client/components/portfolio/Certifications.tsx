@@ -8,7 +8,9 @@ export default function Certifications() {
       <SectionHeading title="Certifications" />
       <div className="flex flex-wrap gap-2">
         {resume.certifications.map((c) => (
-          <Badge key={c.name} className="px-3 py-1">{c.name}</Badge>
+          <Badge key={c.name} className="px-3 py-1">
+            {c.name}
+          </Badge>
         ))}
       </div>
     </section>

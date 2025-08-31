@@ -12,7 +12,10 @@ export default function Experience() {
             <CardHeader className="pb-4">
               <div className="flex flex-wrap items-baseline justify-between gap-2">
                 <CardTitle className="text-xl">
-                  {exp.role} • <span className="font-normal text-muted-foreground">{exp.company}</span>
+                  {exp.role} •{" "}
+                  <span className="font-normal text-muted-foreground">
+                    {exp.company}
+                  </span>
                 </CardTitle>
                 <p className="text-sm text-muted-foreground">
                   {exp.location} • {exp.start} – {exp.end}

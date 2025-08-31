@@ -13,7 +13,10 @@ export default function Education() {
               <h3 className="text-lg font-semibold">{ed.school}</h3>
               <p className="text-sm text-muted-foreground">{ed.location}</p>
               <p className="mt-1 text-sm">{ed.degree}</p>
-              <p className="text-sm text-muted-foreground">{ed.dates}{ed.gpa ? ` • ${ed.gpa}` : ""}</p>
+              <p className="text-sm text-muted-foreground">
+                {ed.dates}
+                {ed.gpa ? ` • ${ed.gpa}` : ""}
+              </p>
             </CardContent>
           </Card>
         ))}

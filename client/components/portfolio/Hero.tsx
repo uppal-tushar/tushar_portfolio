@@ -14,7 +14,7 @@ export default function Hero() {
           height={800}
         />
       </div>
-      <div className="absolute inset-0 -z-10 bg-black/55" />
+      <div className="absolute inset-0 -z-10 bg-black/70" />
       <div className="absolute inset-0 -z-10 bg-gradient-to-br from-primary/20 via-indigo-300/20 to-cyan-300/20" />
       <div className="container py-16 sm:py-20">
         <div className="grid items-center gap-8 md:grid-cols-12">

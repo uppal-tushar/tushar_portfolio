@@ -21,6 +21,7 @@ export function Layout({ children }: PropsWithChildren) {
             <span className="text-sm font-bold tracking-wide">Tushar Uppal</span>
           </Link>
           <nav className="hidden gap-6 md:flex">
+            <NavLink href="/#about">About</NavLink>
             <NavLink href="/#skills">Skills</NavLink>
             <NavLink href="/#critical-skills">Critical Skills</NavLink>
             <NavLink href="/#experience">Experience</NavLink>

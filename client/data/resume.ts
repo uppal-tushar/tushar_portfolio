@@ -39,14 +39,34 @@ export const resume: Resume = {
   phone: "+1 3127746121",
   email: "iamtusharuppal@gmail.com",
   secondaryEmail: "tusharuppal909@gmail.com",
-  headline: "Robotics Systems Engineer • Deployment & Integration • Field Support",
+  headline:
+    "Robotics Systems Engineer • Deployment & Integration • Field Support",
   linkedin: "https://www.linkedin.com/in/uppal-tushar/",
   github: "https://github.com/uppal-tushar",
   skills: {
-    "Robotics Systems": ["Deployment", "Integration", "Commissioning", "Support"],
-    "System Integration": ["Hardware-software interface validation", "Equipment qualification", "Test plan execution"],
-    "Engineering & Lab Operations": ["Equipment setup", "Calibration", "Preventive maintenance", "Lab safety compliance"],
-    "Documentation": ["Engineering SOPs", "Technical reports", "System configuration records", "Validation templates"],
+    "Robotics Systems": [
+      "Deployment",
+      "Integration",
+      "Commissioning",
+      "Support",
+    ],
+    "System Integration": [
+      "Hardware-software interface validation",
+      "Equipment qualification",
+      "Test plan execution",
+    ],
+    "Engineering & Lab Operations": [
+      "Equipment setup",
+      "Calibration",
+      "Preventive maintenance",
+      "Lab safety compliance",
+    ],
+    Documentation: [
+      "Engineering SOPs",
+      "Technical reports",
+      "System configuration records",
+      "Validation templates",
+    ],
     "Troubleshooting & Support": [
       "Middleware troubleshooting",
       "System logs analysis",

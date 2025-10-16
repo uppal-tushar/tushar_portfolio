@@ -15,6 +15,11 @@ const bullets: string[] = [
   "Oversee and resolve escalations during deployments including quality hand-off, live order testing, site acceptance testing, and operational readiness.",
   "Own key KPIs around on-time delivery, cost, quality, safety, and sustainability.",
   "Understand data collection and reporting and make data-driven decisions.",
+  "Strong proficiency in diagnosing and resolving complex software issues using system logs, debugging tools, and root cause analysis.",
+  "Experience with ticket-driven support systems and rapid issue resolution under SLA constraints.",
+  "Ability to analyze middleware and software system failures, identify patterns, and implement targeted fixes.",
+  "Skilled in documenting software issues, solutions, and workarounds for knowledge base and team reference.",
+  "Proficiency in communicating software technical issues to both technical and non-technical stakeholders.",
 ];
 
 export default function CriticalSkills() {

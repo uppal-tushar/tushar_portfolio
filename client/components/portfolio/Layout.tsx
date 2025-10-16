@@ -60,6 +60,7 @@ export function Layout({ children }: PropsWithChildren) {
               </Button>
             </a>
           </div>
+          <div></div>
         </div>
       </header>
       <main className="">{children ?? <Outlet />}</main>

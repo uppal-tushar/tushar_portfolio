@@ -23,21 +23,7 @@ export function Layout({ children }: PropsWithChildren) {
   return (
     <div className="min-h-screen bg-gradient-to-br from-[hsl(var(--primary)_/_0.12)] via-[hsl(var(--accent)_/_0.08)] to-background">
       <header className="sticky top-0 z-40 w-full border-b bg-background/70 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container flex h-16 items-center justify-between">
-          <Link to="/portfolio-tushar" className="flex items-center gap-2">
-            <div className="size-6 rounded-md bg-gradient-to-tr from-primary to-indigo-400" />
-            <span className="text-sm font-bold tracking-wide">portfolio-tushar</span>
-          </Link>
-          <nav className="hidden gap-6 md:flex">
-            <NavLink href="/#about">About</NavLink>
-            <NavLink href="/#skills">Skills</NavLink>
-            <NavLink href="/#critical-skills">Critical Skills</NavLink>
-            <NavLink href="/#photos">Photos</NavLink>
-            <NavLink href="/#experience">Experience</NavLink>
-            <NavLink href="/#education">Education</NavLink>
-            <NavLink href="/#certifications">Certifications</NavLink>
-            <NavLink href="/#contact">Contact</NavLink>
-          </nav>
+        <div className="container flex h-16 items-center justify-start gap-4">
           <div className="flex items-center gap-2">
             {resume.linkedin ? (
               <a
@@ -63,12 +49,12 @@ export function Layout({ children }: PropsWithChildren) {
                 </Button>
               </a>
             ) : null}
-            <a href="mailto:tusharuppal909@gmail.com">
+            <a href={`mailto:${resume.email}`}>
               <Button size="sm" className="">
                 Email
               </Button>
             </a>
-            <a href="tel:+13127746121">
+            <a href={`tel:${resume.phone.replace(/[^+\d]/g, "")}`}>
               <Button size="sm" variant="outline">
                 Call
               </Button>

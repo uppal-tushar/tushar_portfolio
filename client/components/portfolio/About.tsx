@@ -10,13 +10,7 @@ export default function About() {
       <div className="grid gap-8 md:grid-cols-12">
         <div className="md:col-span-7">
           <p className="text-base leading-relaxed text-muted-foreground">
-            I’m a systems-focused robotics professional who thrives in live
-            warehouse and green‑field environments. I coordinate hardware and
-            software integrations, commission robotic systems end‑to‑end, and
-            lead on‑site troubleshooting to keep operations within SLA. My
-            approach is hands‑on, data‑driven, and documentation‑first—turning
-            field observations into clear process instructions and continuous
-            improvements.
+            I'm proficient in technical support for both software and hardware systems, excelling at resolving support tickets and troubleshooting complex issues. I'm a systems-focused robotics professional who thrives in live warehouse and green‑field environments. I coordinate hardware and software integrations, commission robotic systems end‑to‑end, and lead on‑site troubleshooting to keep operations within SLA. My approach is hands‑on, data‑driven, and documentation‑first—turning field observations into clear process instructions and continuous improvements.
           </p>
           <ul className="mt-6 grid gap-3 sm:grid-cols-2">
             <li className="rounded-lg border bg-card p-4 text-sm text-foreground/90 shadow-sm">
@@ -41,7 +35,7 @@ export default function About() {
         <div className="md:col-span-5">
           <div className="rounded-2xl border bg-gradient-to-br from-primary/10 via-accent/10 to-cyan-300/10 p-6">
             <h3 className="text-sm font-semibold tracking-wide text-foreground/80">
-              What I’m looking for
+              What I'm looking for
             </h3>
             <p className="mt-2 text-sm text-muted-foreground">
               Full‑time roles where I can own field deployments, improve system

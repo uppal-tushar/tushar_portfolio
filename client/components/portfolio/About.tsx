@@ -31,6 +31,11 @@ export default function About() {
               Tooling: Python, SQL, Linux, Jira, Shell scripting, Grafana, Power
               BI; Databases: Oracle, MySQL; Cloud: AWS/Azure (basic).
             </li>
+            <li className="rounded-lg border bg-card p-4 text-sm text-foreground/90 shadow-sm">
+              Supported hardware-software integration with real-time sensor and
+              motion control debugging, equipment calibration, and end-to-end
+              system commissioning.
+            </li>
           </ul>
         </div>
         <div className="md:col-span-5">

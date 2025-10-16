@@ -51,6 +51,9 @@ export default function About() {
               <p>• Field deployments and commissioning</p>
               <p>• On‑site/remote troubleshooting and RCA</p>
               <p>• Data‑backed reliability and process improvements</p>
+              <p>• Technical support and application support</p>
+              <p>• Hardware-software integration and system validation</p>
+              <p>• Customer success and operational excellence</p>
             </div>
           </div>
         </div>

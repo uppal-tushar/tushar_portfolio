@@ -48,6 +48,7 @@ export default function About() {
               reliability, and bridge hardware, software, and operations.
             </p>
             <div className="mt-4 grid gap-2 text-sm">
+              <p>• Robotics Software Support Engineer roles</p>
               <p>• Field deployments and commissioning</p>
               <p>• On‑site/remote troubleshooting and RCA</p>
               <p>• Data‑backed reliability and process improvements</p>

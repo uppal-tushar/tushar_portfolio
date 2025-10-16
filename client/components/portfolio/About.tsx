@@ -5,7 +5,7 @@ export default function About() {
     <section className="container py-12" id="about">
       <SectionHeading
         title="About Me"
-        subtitle="Robotics coordination • Systems support • Field integration"
+        subtitle="Robotics Systems Engineer • Hardware-Software Integration • Field Deployment"
       />
       <div className="grid gap-8 md:grid-cols-12">
         <div className="md:col-span-7">
